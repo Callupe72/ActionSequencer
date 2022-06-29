@@ -1,0 +1,54 @@
+/*container*/
+
+.ga-node__extension-container{
+	background-color : 1D1D1D1E;
+	padding: 8px;
+}
+
+.ga-node__custom-data-containers
+{
+	background-color: #212325;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+/* Input */
+
+.ga-node__textfield > .unity-text-field__input
+{
+	background-color: #1D1D1D1E;
+	border-color : #27292C;
+	border-radius: 4px;
+	max-width: 240px;
+	min-width: 160px;
+	padding: 8px;
+}
+
+.ga-node__textfield_hidden > .unity-text-field__input
+{
+	background-color: transparent;
+	border-color transparent;
+}
+
+.ga-node__textfield_hidden > .unity-text-field__input:focus
+{
+	background-color: #1D1D1D1E;
+	border-color : #27292C;
+}
+
+ga-node__filename-textfield > .unity-text-field__input
+{
+	max-width: 1000px;
+}
+
+ga-node__filename-textfield > .unity-text-field__input:focus
+{
+	max-width: 4px;
+	padding: 4px;
+}
+
+/*Elements*/
+
+TextField{
+	margin-left: 0px;
+}

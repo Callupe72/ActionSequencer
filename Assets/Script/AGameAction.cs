@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 
-public abstract class AGameAction : MonoBehaviour
+public abstract class AGameAction : MonoBehaviour, IContextual
 {
-    private bool _isRunning = false;
+    bool _isRunning = false;
+
     public bool IsRunning()
     {
         return _isRunning;
+    }
+
+    public void ShowFunction()
+    {
     }
 
     public void Execute()
@@ -44,4 +49,5 @@ public abstract class AGameAction : MonoBehaviour
     }
 
     protected abstract string BuildGameObjectName();
+
 }
